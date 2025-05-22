@@ -1,0 +1,4 @@
+name = "BQ_1989_Replication"
+uuid = "5537f0ce-518c-4eb2-9719-3fa01da66bf8"
+authors = ["Davide Zagame", "Andrea Giannino"]
+version = "0.1.0"
