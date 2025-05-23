@@ -15,6 +15,8 @@ using LinearAlgebra
 using Distributions
 using Plots
 using Statistics
+using Test
+using TestItemRunner
 
 xf = XLSX.readxlsx("$input_raw_data/BQ1989_Data.xlsx")
 XLSX.sheetnames(xf)
@@ -420,11 +422,11 @@ function nearest_posdef(A)
     end
 
     spacing = eps(Float64)
-    I = Matrix{Float64}(I, size(A,1), size(A,2))
+    I_mat = Matrix{Float64}(LinearAlgebra.I, size(A,1), size(A,2))
     k = 1
     while !isposdef(A3)
         mineig = minimum(eigvals(A3))
-        A3 += I * (-mineig * k^2 + spacing)
+        A3 += I_mat * (-mineig * k^2 + spacing)
         k += 1
     end
 
