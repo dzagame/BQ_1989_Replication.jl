@@ -16,7 +16,7 @@ export run
 
 #Import the main functions 
 function run()
-    include("src/filepath.jl")
+    include("src/files_path.jl")
     include("src/IRFs.jl") #Generates the IRFs (figures 1-2-3-4-5-6)
     #include("src/VarianceDecomp.jl") #Generates the Variance Decomposition tables
 end
