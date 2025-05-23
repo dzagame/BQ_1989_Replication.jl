@@ -13,7 +13,7 @@ include("../src/IRFs.jl")
     @test length(result.beta) == 2
     @test result.sige ≥ 0
     @test 0 ≤ result.rsqr ≤ 1
-    @test 0 ≤ result.rbar ≤ 1
+    @test result.rbar ≤ 1
 end
 
 #Test if VARmakexy() returns correct matrix shape
