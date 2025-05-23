@@ -1,8 +1,11 @@
-# Replicating Blanchard & Quah (1989)
+# Replication package for Blanchard,O.J & Quah,D. (AER, 1989) in Julia
 
-Authors of the replication : Andrea Giannino(andrea.giannino@carloalberto.org) and Davide Zagame(davide.zagame@carloalberto.org).
+**Authors of the replication** : Andrea Giannino (andrea.giannino@carloalberto.org) and Davide Zagame (davide.zagame@carloalberto.org).
 
-We replicate the main findings of [Blanchard & Quah,1989](https://uh.edu/~bsorense/BlanchardQuah1989.pdf).
+**Course:** Computational Economics, Spring 2025 - Master in Economics, Collegio Carlo Alberto
+
+We replicate the main findings of [Blanchard, Olivier Jean and Quah, Danny. "The Dynamic Effects of Aggregate Demand and
+Supply Disturbances." The American Economic Review 79, no.4 (1989): 655-673](https://uh.edu/~bsorense/BlanchardQuah1989.pdf).
 
 ## Reproducing the results
 The first step is to download the package BQ_1989_Replication. 
@@ -45,7 +48,7 @@ The folders are organised as follow:
 
 ## Computational Requirements
 
-We indicate here the minimum resources used for replication on our own devices. Expected run time may vary depending on your own machine.
+We indicate here the computational resources employed for replication. Expected run time may vary depending on your own machine.
 
 *OS*: Windows 11
 
@@ -59,6 +62,6 @@ We indicate here the minimum resources used for replication on our own devices. 
 
 ## Expected run time
 
-Given our specifications, the runtime of BQ_1989_Replication.run() is of about 3 minutes.
+Given the above-mentioned specifications, the runtime of BQ_1989_Replication.run() is of about 3 minutes.
 
 
