@@ -78,13 +78,13 @@ We indicate here the computational resources employed for replication. Expected 
 
 Given the above-mentioned specifications, the runtime of BQ_1989_Replication.run() is of about 3 minutes.
 
-### Notes regarding replicated output
+## Notes regarding replicated output
 
 The package replicates the following output from the paper:
 -**Figures 1-2**: IRFs showing the dynamic effects of supply (Figure 1 in the Paper) and demand shocks (Fig.2) on unemployment and output. The VAR itself has p = 8 with output growth and unemployment, and the identifying assumption is the "zero long-run restrictions": demand-side shocks have no long-run effect on the level of output, while supply shocks do.  
 -**Figures 3-4-5-6**: IRFs similar to Fig.1-2, but with one standard deviation bands around the point estimates.
 
-### Notes about output accuracy
+## Notes about output accuracy
 
 We've been able to accurately reproduce Figures 1 and 2, the only ones which were reproduced by Cesa-Bianchi in his Matlab script.
 As for figures 3-4-5-6, our results don't match those provided in the paper. Hence, there are likely some issues to be solved in VARirband and/or VARirplot.
