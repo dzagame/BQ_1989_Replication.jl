@@ -806,7 +806,7 @@ title!(p2, "Demand shock")
 plot(p1, p2, layout = (1, 2), legend = :topright)
 
 # Salvataggio figura (opzionale, sostituisci il path se vuoi)
-savefig("$output_figures/BQ_Replication.png")
+savefig("$output_figures/Fig_1_2.pdf")
 
 # Pulisce la figura (come clf('reset'))
 closeall()
@@ -862,4 +862,4 @@ hline!(p4, [0.0], linestyle=:dash, color=:gray, label="")
 plot(p1, p3, p2, p4, layout=(2,2), size=(1000,700))
 
 # (Opzionale) salva
-savefig("$output_figures/IRF_BQ_style.pdf")
+savefig("$output_figures/Fig_3_4_5_6.pdf")
