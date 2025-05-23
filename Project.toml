@@ -2,3 +2,11 @@ name = "BQ_1989_Replication"
 uuid = "5537f0ce-518c-4eb2-9719-3fa01da66bf8"
 authors = ["Davide Zagame", "Andrea Giannino"]
 version = "0.1.0"
+
+[deps]
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
+
+[compat]
+Revise = "3.7.6"
+XLSX = "0.10.4"
