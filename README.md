@@ -19,11 +19,11 @@ For that, open the command terminal (making sure Julia is already added to PATH)
 Then, when in the Julia REPL, simply run:
 ```
 julia > ]
-julia > activate .
+(@v1.11) pkg> activate .
 
-using BQ_1989_Replication
+julia> using BQ_1989_Replication
 
-BQ_1989_Replication.run()
+julia> BQ_1989_Replication.run()
 ```
 
 ## Folder organisation
