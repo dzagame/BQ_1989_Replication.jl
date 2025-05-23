@@ -23,7 +23,8 @@ julia > ]
 
 julia> using BQ_1989_Replication
 
-julia> BQ_1989_Replication.run()
+julia> BQ_1989_Replication.run() #To run the replication and obtain the IRFs
+julia> BQ_1989_Replication.runtests() #To run the unit tests
 ```
 
 ## Folder organisation
