@@ -91,5 +91,5 @@ As for figures 3-4-5-6, our results don't match those provided in the paper. Hen
 
 ## Potential extensions
 
-An obvious extension that could be easily implemented that of also replicating the remaining figures (Fig. 7-8-9-10) and tables (Tab. 1-2-2A-2B-2C), the code for which wasn't provided in Cesa-Bianchi's replication package, which was only concerned with the key IRFs.
+An obvious extension that could be easily implemented would be that of also replicating the remaining figures (Fig. 7-8-9-10) and tables (Tab. 1-2-2A-2B-2C), the code for which wasn't provided in Cesa-Bianchi's replication package, which was only concerned with the key IRFs.
 
