@@ -1,13 +1,5 @@
 include("files_path.jl")
 using Pkg
-Pkg.activate(".")
-Pkg.instantiate()
-Pkg.add("Plots")
-Pkg.add("XLSX")
-Pkg.add("DataFrames")
-Pkg.add("Dates")
-Pkg.add("Distributions")
-Pkg.status()
 using XLSX
 using DataFrames
 using Dates
